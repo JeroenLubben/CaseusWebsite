@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    letter-spacing: 0.15em;
+    background-color: white;
+    font-size: 80%
+}
+
+#navigation{
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  background-color: white;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+ #myCarousel{
+   margin-top: 60px;
+ }
+
+ .carousel-inner > .item > img {
+  margin: 0 auto;
+}
