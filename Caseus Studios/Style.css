@@ -19,6 +19,9 @@ body {
     margin: 10px auto 25px auto;
 }
 
+#navigation{
+
+}
 ul {
     width: 600px;
     padding: 20px;
@@ -26,11 +29,13 @@ ul {
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     text-align: center;
+    background-color: white;
 }
 
 li {
     display: inline;
     margin: 0px 3px;
+    text-align: center;
 }
 
 h1 {
@@ -64,4 +69,18 @@ a {
 a:hover, a.on {
     color: orange;
     background-color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  margin-left: 156.8px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
